@@ -17,7 +17,7 @@ class LogFormatter(tornado.log.LogFormatter):
             fmt='%(color)s[%(asctime)s %(filename)s:%(funcName)s:%(lineno)d %(levelname)s]%(end_color)s %(message)s',
             datefmt='%Y-%m-%d %H:%M:%S'
         )
-
+#
 # import Static Root Controller and make controller list
 def getControllerList(path):
     controller_list=list()
